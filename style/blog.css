@@ -1,3 +1,5 @@
+/*=========START MAIN========== */
+
 /* ++++++++++++++++++start-box1++++++++++++++++ */
 
 .box1 {
@@ -71,3 +73,81 @@
 }
 
 /* ++++++++++++++++++end-box1++++++++++++++++ */
+
+/* ++++++++++++++++++start-box2++++++++++++++++ */
+
+.posts-head {
+}
+.posts-head h2 {
+  padding-top: 64px;
+  padding-right: 980px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+hr {
+  margin-top: 32px;
+  width: 1282px;
+  height: 0px;
+  opacity: 0.32;
+  border: 1px solid #6d6e76;
+}
+
+.posts-txt1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-between;
+}
+.posts-txt-left {
+  padding-top: 64px;
+}
+
+.posts-txt-right {
+  margin-top: 119px;
+  margin-left: -70px;
+}
+
+.posts-txt-right span {
+  width: 183.37px;
+  height: 20px;
+  margin-right: 654px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #592ea9;
+}
+
+.posts-txt-right h3 {
+  padding-top: 20px;
+  width: 602.89px;
+  height: 96px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.posts-txt-right P {
+  padding-top: 46px;
+  width: 624px;
+  height: 56px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+}
+
+/*=========END MAIN========== */
