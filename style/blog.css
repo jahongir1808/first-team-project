@@ -1,0 +1,73 @@
+/* ++++++++++++++++++start-box1++++++++++++++++ */
+
+.box1 {
+  background: #f4f0f8;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-between;
+}
+
+.home-left {
+  padding-top: 94px;
+  padding-left: 80px;
+}
+
+.home-left-head {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+}
+
+.home-left h3 {
+  font-family: "Sen";
+  font-style: normal;
+  font-size: 36px;
+  letter-spacing: -2px;
+  margin-top: -20px;
+  padding-right: 141px;
+  padding-bottom: 16px;
+  color: #232536;
+}
+
+.home-left span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0px 390px 0px 0px;
+  color: #4c4c4c;
+}
+
+.home-left p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+  padding: 16px 141px 32px 0;
+}
+
+.home-left button {
+  width: 204px;
+  height: 56px;
+  background: #ffd050;
+  margin-bottom: 90px;
+}
+
+.home-right {
+  padding: 80px 80px 80px 0;
+}
+.home-right img {
+  width: 515px;
+  height: 379px;
+}
+
+/* ++++++++++++++++++end-box1++++++++++++++++ */
