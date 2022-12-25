@@ -21,14 +21,8 @@ html {
 
 :root {
   font-size: 16px;
-  --heading-color: #1e1d1d;
-  --main-p-color: #8b8e99;
-  --btns-bg: #3858d6;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-}
 a {
   text-decoration: none;
 }
