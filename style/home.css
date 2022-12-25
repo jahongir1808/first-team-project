@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sen:wght@700&display=swap");
-
 :root {
   --btn-bg: #ffd050;
   --btn-bg-hover: #edc14a;
@@ -276,13 +274,23 @@ input[type="text"] {
   color: #6d6e76;
 }
 
-.feautured-right {
+.feautured-right,
+.featured-left {
   width: 50%;
 }
 
 .feautured-right-card {
   transition: 0.5s;
   padding: 32px 0 25px 32px;
+}
+
+.featured-righttext {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 20px;
+  color: #4c4c4c;
 }
 
 .feautured-right-card:hover {
