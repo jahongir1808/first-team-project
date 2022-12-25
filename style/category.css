@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.business {
+  padding: 80px;
+  background-color: #f4f0f8;
+}
+.business h1 {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #232536;
+  padding-bottom: 16px;
+}
+.business p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #6d6e76;
+  padding-bottom: 32px;
+  width: 500px;
+  margin: 0 auto;
+}
+.business h4 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+}
+.grid-card {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 128px 0;
+}
+
+.card {
+  display: flex;
+  padding: 16px 0;
+}
+.card-left {
+  flex: 0.4;
+}
+.card-right {
+  flex: 0.6;
+  padding-left: 32px;
+}
+.card-left img {
+  width: 100%;
+}
+.card h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #592ea9;
+}
+.card h3 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+.card p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+}
+.submit{
+    display: flex;
+    padding: 2rem;
+    border: 1.5px solid #C1C1C3;
+    margin-bottom: 25px;
+}
+.submit p {
+    margin-left: 2rem;
+    font-weight: bold;
+    font-size: 32px;
+}
+.yellow {
+  background-color: #ffd050;
+}
+.categories{
+    padding: 25px;
+}
+button {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  border: 1.5px solid #C1C1C3;
+}
+button p {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: #232536;
+}
+@media screen and (max-width: 786px) {
+  .business {
+    padding: 30px;
+  }
+  .business h1 {
+    font-size: 32px;
+  }
+  .business p {
+    width: 100%;
+  }
+}
