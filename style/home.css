@@ -98,25 +98,6 @@
   padding-bottom: 32px;
 }
 
-.footer-left-card1 {
-  width: 96%;
-  margin-right: 32px;
-  padding: 32px;
-  border: 1px solid #f4f4f4;
-}
-
-.footer-left-card1 h3 {
-  width: 95%;
-  padding: 16px 0;
-  font-family: "Sen";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.75rem;
-  line-height: 40px;
-  letter-spacing: -1px;
-  color: #232536;
-}
-
 .feautured-text2 {
   margin-bottom: 35px;
   font-family: "Inter";
