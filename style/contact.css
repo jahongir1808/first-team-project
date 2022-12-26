@@ -1,0 +1,185 @@
+.about-menu {
+  text-align: center;
+}
+
+.about-menu h3 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  padding-top: 125px;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+}
+
+.about-menu h1 {
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 15px;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.about-menu p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 23px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blue-box {
+  width: 64.5%;
+  display: flex;
+  justify-content: center;
+  margin-left: 230px;
+  background: #592ea9;
+  margin-top: 50px;
+}
+
+.register input[type="text"] {
+  margin-right: 0;
+}
+
+select:focus {
+  outline: none;
+}
+
+.bl-box-left p,
+.bl-box-right p {
+  padding-top: 45px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.bl-box-left h2,
+.bl-box-right h2 {
+  padding-top: 30px;
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.bl-box-left h3 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  padding-bottom: 48px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.bl-box-right h4 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.register {
+  padding-top: 50px;
+  margin-left: 10px;
+  text-align: center;
+}
+input select {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 15px;
+  font-size: 15px;
+  line-height: 28px;
+  color: #232536;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+input,
+textarea:focus {
+  outline: none;
+}
+
+.register input,
+select,
+textarea {
+  width: 65%;
+  height: 50px;
+  margin-top: 20px;
+  padding-left: 15px;
+}
+
+.textarea-txt {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  height: 130px;
+  padding: 15px 0px 0px 20px;
+  resize: none;
+}
+
+.message {
+  width: 64.5%;
+  margin: 10px 0px 0px 230px;
+  background: #ffd050;
+  padding: 16px;
+  margin-bottom: 120px;
+}
+
+.message a {
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  color: #232536;
+  margin-left: 45%;
+}
+
+@media (max-width: 1050px) {
+  .blue-box {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+  }
+  .message {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 250px;
+  }
+  .message a {
+    margin: 0px 0px 0px 50px;
+  }
+}

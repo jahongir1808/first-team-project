@@ -21,6 +21,10 @@ html {
   margin: 0 auto;
 }
 
+.btns:hover {
+  background: #edc14a;
+}
+
 :root {
   font-size: 16px;
   --btn-bg: #ffd050;

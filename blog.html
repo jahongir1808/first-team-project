@@ -5,28 +5,45 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>blog-page</title>
+  <title>Islomiddin</title>
   <link rel="stylesheet" href="../style/blog.css">
   <link rel="stylesheet" href="style/style.css" />
-  <link rel="stylesheet" href="style/nav-footer.css">
 </head>
-.
 <body">
   <header>
-    <div class="container ">
-      <nav>
-        <div class="logo">
-          <img src="../images/nav-logo.svg" alt="logo">
+      <nav id="navbar">
+        <div class="container nav-container">
+          <div class="nav-logo-img">
+            <a href="#"><img src="images/nav-logo.svg" alt="" /></a>
+          </div>
+          <div class="nav-menus">
+            <ul>
+              <li><a class="nav-menus-link" href="index.html">Home</a></li>
+              <li><a class="nav-menus-link" href="#">Blog</a></li>
+              <li><a class="nav-menus-link" href="about.html">About Us</a></li>
+              <li>
+                <a class="nav-menus-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <a class="nav-btn" href="#">Subscribe</a>
+          </div>
+          <button class="hamburger" onclick="openNavbar()">
+            <img src="images/hb-menu.svg" alt="" />
+          </button>
         </div>
-        <ul class="header-item">
-          <li><a class="header-link" href="#">Home</a></li>
-          <li><a class="header-link" href="#">Blog</a></li>
-          <li><a class="header-link" href="#">About Us</a></li>
-          <li><a class="header-link" href="#">Contact us</a></li>
-          <li><a class="header-link" href="#"><button class="btn">Subscribe</button></a></li>
-        </ul>
+        <div id="navbar-responsive">
+          <ul>
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#" class="nav-link">Blog</a></li>
+            <li><a href="#" class="nav-link">About Us</a></li>
+            <li><a href="#" class="nav-link">Contact Us</a></li>
+            <li><a href="#" class="nav-btn">Subscribe</a></li>
+          </ul>
+          <button id="close-navbar" onclick="closeNavbar()">
+            <img src="images/close-icon.svg" alt="" />
+          </button>
+        </div>
       </nav>
-    </div>
   </header>
   <main>     
     <div style="background: #f4f0f8;">
@@ -42,7 +59,7 @@
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
               Excepteur sint occaecat cupidatat non proident.F
             </p>
-            <button>Read More ></button>
+            <a href="blog-post.html"><button class="btns">Read More ></button></a>
           </div>
           <div class="home-right">
             <img src="../images/blog-images/hom-img.png" alt="hom-img">
@@ -180,6 +197,50 @@
       </div>
     </section>
   </main>
+  <footer>
+    <div class="container footer-container">
+      <div class="footer-navigation">
+        <div class="footer-logo-img">
+          <a href="#"><img src="images/nav-logo.svg" alt="" /></a>
+        </div>
+        <div class="footer-menus">
+          <ul>
+            <li><a class="nav-menus-link" href="index.html">Home</a></li>
+              <li><a class="nav-menus-link" href="#">Blog</a></li>
+              <li><a class="nav-menus-link" href="about.html">About Us</a></li>
+              <li>
+                <a class="nav-menus-link" href="contact.html">Contact Us</a>
+              </li>
+            <li><a class="footer-menus-link" href="privacypolicy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-subscribe">
+        <div class="subscribe-heading">
+          <h2>Subscribe to our news letter to get latest updates and news</h2>
+        </div>
+        <div class="subscribe-input">
+          <form>
+            <input placeholder="Enter Your Email  " type="text" />
+          </form>
+          <a class="btns" href="#">Subscribe</a>
+        </div>
+      </div>
+      <div class="footer-content">
+        <div class="footer-text">
+          <p>Finstreet 118 2561 Fintown</p>
+          <p>Hello@finsweet.com 020 7993 2905</p>
+        </div>
+        <div class="footer-icons">
+          <img src="images/icons/facebook-icon.svg" alt="" />
+          <img src="images/icons/twitter-icon.svg" alt="" />
+          <img src="images/icons/linkedin-icon.svg" alt="" />
+          <img src="images/icons/instagram-icon.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sen:wght@700&display=swap");
 
-:root {
-  --btn-bg: #ffd050;
-  --btn-bg-hover: #edc14a;
-}
-
 .home {
   background-image: url(../images/home-bg.png);
   background-size: cover;

@@ -4,8 +4,146 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>contact-page</title>
-    <link rel="stylesheet" href="style/style.css" />
+    <title>Mukam</title>
+    <link rel="stylesheet" href="style/nav-footer.css" />
+    <link rel="stylesheet" href="style/common.css" />
+    <link rel="stylesheet" href="style/contact.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container nav-container">
+          <div class="nav-logo-img">
+            <a href="#"><img src="images/nav-logo.svg" alt="" /></a>
+          </div>
+          <div class="nav-menus">
+            <ul>
+              <li><a class="nav-menus-link" href="index.html">Home</a></li>
+              <li><a class="nav-menus-link" href="blog.html">Blog</a></li>
+              <li><a class="nav-menus-link" href="about.html">About Us</a></li>
+              <li>
+                <a class="nav-menus-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <a class="nav-btn" href="#">Subscribe</a>
+          </div>
+          <button class="hamburger" onclick="openNavbar()">
+            <img src="images/hb-menu.svg" alt="" />
+          </button>
+        </div>
+        <div id="navbar-responsive">
+          <ul>
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#" class="nav-link">Blog</a></li>
+            <li><a href="#" class="nav-link">About Us</a></li>
+            <li><a href="#" class="nav-link">Contact Us</a></li>
+            <li><a href="#" class="nav-btn">Subscribe</a></li>
+          </ul>
+          <button id="close-navbar" onclick="closeNavbar()">
+            <img src="images/close-icon.svg" alt="" />
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container about-container">
+        <div class="about-menu">
+          <h3>Contact us</h3>
+          <h1>Let’s Start a Conversation</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore <br />
+            et dolore magna aliqua. Ut enim ad minim.
+          </p>
+        </div>
+        <div class="blue-box">
+          <div class="bl-box-left">
+            <p>Working hours</p>
+            <h2>
+              Monday To Friday <br />
+              9:00 AM to 8:00 PM
+            </h2>
+            <h3>Our Support Team is available 24/7</h3>
+          </div>
+          <div class="bl-box-right">
+            <p>Contact Us</p>
+            <h2>020 7993 2905</h2>
+            <h4>hello@finsweet.com</h4>
+          </div>
+        </div>
+        <div class="register">
+          <form>
+            <label for="name">
+              <input type="text" placeholder="Full Name" id="name" /> </label
+            ><br />
+            <label for="email">
+              <input type="email" placeholder="Your Email" id="email" /> </label
+            ><br />
+            <select name="query" id="query">
+              <option value="query">Query Related</option></select
+            ><br />
+            <label for="commet"></label>
+            <textarea
+              placeholder="Message"
+              class="textarea-txt"
+              name="commet"
+              id="commet"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </form>
+        </div>
+        <div class="message">
+          <a href="https://t.me/Mister_M_707">Send Message</a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container footer-container">
+        <div class="footer-navigation">
+          <div class="footer-logo-img">
+            <a href="#"><img src="images/nav-logo.svg" alt="" /></a>
+          </div>
+          <div class="footer-menus">
+            <ul>
+              <li><a class="nav-menus-link" href="index.html">Home</a></li>
+              <li><a class="nav-menus-link" href="blog.html">Blog</a></li>
+              <li><a class="nav-menus-link" href="about.html">About Us</a></li>
+              <li>
+                <a class="nav-menus-link" href="#">Contact Us</a>
+              </li>
+                <a class="footer-menus-link" href="privacypolicy.html"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-subscribe">
+          <div class="subscribe-heading">
+            <h2>Subscribe to our news letter to get latest updates and news</h2>
+          </div>
+          <div class="subscribe-input">
+            <form>
+              <input placeholder="Enter Your Email  " type="text" />
+            </form>
+            <a class="btns" href="#">Subscribe</a>
+          </div>
+        </div>
+        <div class="footer-content">
+          <div class="footer-text">
+            <p>Finstreet 118 2561 Fintown</p>
+            <p>Hello@finsweet.com 020 7993 2905</p>
+          </div>
+          <div class="footer-icons">
+            <img src="images/icons/facebook-icon.svg" alt="" />
+            <img src="images/icons/twitter-icon.svg" alt="" />
+            <img src="images/icons/linkedin-icon.svg" alt="" />
+            <img src="images/icons/instagram-icon.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
 </html>

@@ -44,10 +44,6 @@ nav {
   display: none;
 }
 
-.btns:hover {
-  background: #edc14a;
-}
-
 #navbar-responsive {
   display: none;
 }
