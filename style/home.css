@@ -327,6 +327,7 @@
   color: #6d6e76;
 }
 
+/* SIMPLE */
 #simple .container {
   position: relative;
   padding-bottom: 128px;
@@ -381,6 +382,12 @@
   line-height: 28px;
   color: #6d6e76;
 }
+
+.simple-container a {
+  max-width: 269px;
+  max-height: 56px;
+}
+
 .btns {
   color: black;
   padding: 16px 48px;
@@ -390,7 +397,220 @@
   font-size: 1.125rem;
   line-height: 24px;
   background-color: var(--btn-bg);
-  width: 60%;
+}
+
+/* LIST */
+
+.list-container h2 {
+  text-align: center;
+  padding-bottom: 48px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.list-cards {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.list-card {
+  width: 25%;
+  padding: 40px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f4f4f4;
+  transition: 0.3s;
+}
+
+.list-card:hover {
+  background: #fbf6ea;
+}
+
+.list-card h3 {
+  margin-top: 20px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: #232536;
+}
+
+.list-card p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 20px;
+  text-align: center;
+  color: #6d6e76;
+}
+
+.list-card-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 16px;
+}
+
+.list-icons {
+  margin: 96px 0;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.list-icon {
+  width: 17%;
+}
+
+/* PEOPLE */
+
+#people {
+  padding-bottom: 128px;
+}
+
+.people-container {
+  padding: 80px 111px 74px 111px;
+  background: #fbf6ea;
+  display: flex;
+}
+
+.people-left {
+  width: 50%;
+  border-right: 1px solid rgb(109, 110, 118, 0.3);
+  padding-right: 80px;
+  margin-right: 96px;
+}
+
+.people-left h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 20px;
+  letter-spacing: 3px;
+  color: #232536;
+}
+
+.people-left h2 {
+  max-width: 345px;
+  margin: 12px 0 16px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.people-left p {
+  max-width: 349px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #232536;
+}
+
+.people-right {
+  width: 50%;
+}
+
+.people-right h4 {
+  max-width: 469px;
+  margin-bottom: 114px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 32px;
+  color: #232536;
+}
+
+.people-card {
+  display: flex;
+  gap: 141px;
+}
+
+.people-icon {
+  display: flex;
+  gap: 24px;
+}
+
+/* JOIN */
+
+#join {
+  padding-bottom: 128px;
+}
+
+.join-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.join-container h2 {
+  max-width: 414px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.join-container p {
+  margin: 16px 0 32px;
+  max-width: 405px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+}
+
+.join-container a {
+  max-width: 174px;
+}
+
+@media (max-width: 11900px) {
+  .list-icons {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 1170px) {
+  .simple-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #simple .container div {
+    position: static;
+    width: 100%;
+  }
+  #simple img {
+    width: 70%;
+    text-align: center;
+  }
+  #simple .container {
+    position: relative;
+    margin-bottom: 128px;
+  }
 }
 
 @media (max-width: 1150px) {
@@ -407,19 +627,25 @@
   .footer-left-card1 {
     width: 100%;
   }
-}
+  .list-card-icons {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-@media (max-width: 1170px) {
-  #simple .container div {
-    position: static;
-    width: 100%;
+  .list-icons {
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
-  #simple img {
-    display: none;
+
+  .list-icon {
+    width: 25%;
   }
-  #simple .container {
-    position: relative;
-    margin-bottom: 128px;
+  .people-card {
+    width: 50%;
+    gap: 50px;
   }
 }
 
@@ -435,6 +661,46 @@
   }
   .catagory-card {
     width: 48%;
+  }
+  .list-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .list-cards {
+    gap: 30px;
+  }
+  .list-card {
+    width: 45%;
+  }
+  .list-card-img1 {
+    width: 50%;
+  }
+  .people-container {
+    padding: 80px;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .people-left {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .people-right {
+    width: 100%;
+  }
+  .people-left {
+    border-right: none;
+    border-bottom: 1px solid rgb(109, 110, 118, 0.3);
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .people-card {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .people-right h4 {
+    margin-bottom: 0;
+    padding-bottom: 50px;
   }
 }
 
@@ -452,7 +718,7 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 710px) {
   .nav-menus {
     display: none;
   }
@@ -509,6 +775,22 @@
     display: block;
     margin: 20px 0 0;
   }
+  .community {
+    padding: 20px;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .community-left,
+  .community-right {
+    width: 100%;
+  }
+  .list-icons {
+    gap: 30px;
+  }
+
+  .list-icon {
+    width: 40%;
+  }
 }
 
 @media (max-width: 650px) {
@@ -529,6 +811,15 @@
   .subscribe-input a {
     padding: 13px 30px;
     font-size: 1rem;
+  }
+  .list-card {
+    width: 100%;
+  }
+  .people-container {
+    padding: 20px;
+  }
+  .people-card {
+    gap: 0px;
   }
 }
 
@@ -583,5 +874,31 @@
   }
   .catagory-card {
     width: 100%;
+  }
+  .list-icons {
+    margin-left: 20px;
+  }
+  .list-icon {
+    width: 100%;
+  }
+  #simple .container div {
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+  }
+  .simple-container a {
+    text-align: center;
+  }
+  .people-card {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .people-img img {
+    width: 100%;
+  }
+  .people-icon img {
+    width: 30%;
   }
 }
