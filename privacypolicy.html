@@ -18,41 +18,43 @@
     <link rel="stylesheet" href="style/privacy-policy.css" />
   </head>
   <body>
-    <nav id="navbar">
-      <div class="container nav-container">
-        <div class="nav-logo-img">
-          <a href="#"><img src="images/nav-logo.svg" alt="" /></a>
+    <header>
+      <nav id="navbar">
+        <div class="container nav-container">
+          <div class="nav-logo-img">
+            <a href="#"><img src="images/nav-logo.svg" alt="" /></a>
+          </div>
+          <div class="nav-menus">
+            <ul>
+              <li><a class="nav-menus-link" href="#">Home</a></li>
+              <li><a class="nav-menus-link" href="blog.html">Blog</a></li>
+              <li><a class="nav-menus-link" href="about.html">About Us</a></li>
+              <li>
+                <a class="nav-menus-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <a class="nav-btn" href="#">Subscribe</a>
+          </div>
+          <button class="hamburger" onclick="openNavbar()">
+            <img src="images/hb-menu.svg" alt="" />
+          </button>
         </div>
-        <div class="nav-menus">
+        <div id="navbar-responsive">
           <ul>
-            <li><a class="nav-menus-link" href="index.html">Home</a></li>
-            <li><a class="nav-menus-link" href="blog.html">Blog</a></li>
-            <li><a class="nav-menus-link" href="about.html">About Us</a></li>
+            <li><a class="nav-link" href="#">Home</a></li>
+            <li><a class="nav-link" href="blog.html">Blog</a></li>
+            <li><a class="nav-link" href="about.html">About Us</a></li>
             <li>
-              <a class="nav-menus-link" href="contact.html">Contact Us</a>
+              <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
+            <li><a href="#" class="nav-btn">Subscribe</a></li>
           </ul>
-          <a class="nav-btn" href="#">Subscribe</a>
+          <button id="close-navbar" onclick="closeNavbar()">
+            <img src="images/close-icon.svg" alt="" />
+          </button>
         </div>
-        <button class="hamburger" onclick="openNavbar()">
-          <img src="images/hb-menu.svg" alt="" />
-        </button>
-      </div>
-      <div id="navbar-responsive">
-        <ul>
-          <li><a class="nav-link" href="index.html">Home</a></li>
-          <li><a class="nav-link" href="blog.html">Blog</a></li>
-          <li><a class="nav-link" href="about.html">About Us</a></li>
-          <li>
-            <a class="nav-link" href="contact.html">Contact Us</a>
-          </li>
-          <li><a href="#" class="nav-btn">Subscribe</a></li>
-        </ul>
-        <button id="close-navbar" onclick="closeNavbar()">
-          <img src="images/close-icon.svg" alt="" />
-        </button>
-      </div>
-    </nav>
+      </nav>
+    </header>
     <section id="header">
       <h1>Privacy Policy</h1>
       <p>Last Updated on 27th January 2022</p>
