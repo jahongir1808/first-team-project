@@ -1,5 +1,48 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap");
+header {
+      background: #232536;
+    }
+    
+    nav {
+      padding-top: 25px;
+      padding-bottom: 26px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .header-item {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      align-items: center;
+    }
+    .header-link {
+      padding-left: 24px;
+      text-decoration: none;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      color: #ffffff;
+    }
+    
+    .btn {
+      width: 179px;
+      height: 56px;
+      background: #ffffff;
+    
+      font-family: "Sen";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+      color: #232536;
+    }
+  
 * {
   margin: 0;
   padding: 0;

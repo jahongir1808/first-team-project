@@ -4,12 +4,249 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project</title>
+    <title>Axtamov Jahongir</title>
     <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/home.css" />
   </head>
   <body>
     <header>
-      <nav></nav>
+      <nav id="navbar">
+        <div class="container nav-container">
+          <div class="nav-logo-img">
+            <a href="#"><img src="images/nav-logo.svg" alt="" /></a>
+          </div>
+          <div class="nav-menus">
+            <ul>
+              <li><a class="nav-menus-link" href="#">Home</a></li>
+              <li><a class="nav-menus-link" href="#">Blog</a></li>
+              <li><a class="nav-menus-link" href="#">About Us</a></li>
+              <li><a class="nav-menus-link" href="#">Contact Us</a></li>
+            </ul>
+            <a class="nav-btn" href="#">Subscribe</a>
+          </div>
+          <button class="hamburger" onclick="openNavbar()">
+            <img src="images/hb-menu.svg" alt="" />
+          </button>
+        </div>
+        <div id="navbar-responsive">
+          <ul>
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#" class="nav-link">Blog</a></li>
+            <li><a href="#" class="nav-link">About Us</a></li>
+            <li><a href="#" class="nav-link">Contact Us</a></li>
+            <li><a href="#" class="nav-btn">Subscribe</a></li>
+          </ul>
+          <button id="close-navbar" onclick="closeNavbar()">
+            <img src="images/close-icon.svg" alt="" />
+          </button>
+        </div>
+      </nav>
+      <div class="home">
+        <div class="container">
+          <div class="home-content">
+            <p class="hometext">
+              POSTED ON<span class="homespan">STARTUP</span>
+            </p>
+            <h2>Step-by-step guide to choosing great font pairs</h2>
+            <p>By <span class="yellowspan">James West</span> | May 23, 2022</p>
+            <p class="bt">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident.
+            </p>
+            <a class="btns" href="#">Read More ></a>
+          </div>
+        </div>
+      </div>
     </header>
+    <section id="feautured">
+      <div class="container feautured-container">
+        <div class="feautured-left">
+          <h2>Feautured Post</h2>
+          <div class="footer-left-card1">
+            <div class="feautured-left-card">
+              <img src="images/feautured-img1.png" alt="" />
+              <p class="featured-lefttext">
+                By <span class="bluespan">John Doe</span> | May 23, 2022
+              </p>
+              <h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </h3>
+              <p class="feautured-text2">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident.
+              </p>
+              <a class="btns" href="#">Read More ></a>
+            </div>
+          </div>
+        </div>
+        <div class="feautured-right">
+          <div class="feautured-right-content">
+            <h2>All Posts</h2>
+            <p>View All</p>
+          </div>
+          <div class="feautured-right-card">
+            <p class="featured-righttext">
+              By <span class="bluespan">John Doe</span> | May 23, 2022
+            </p>
+            <h4>
+              8 Figma design systems that you can download for free today.
+            </h4>
+          </div>
+          <div class="feautured-right-card">
+            <p class="featured-righttext">
+              By <span class="bluespan">John Doe</span> | May 23, 2022
+            </p>
+            <h4>
+              8 Figma design systems that you can download for free today.
+            </h4>
+          </div>
+          <div class="feautured-right-card">
+            <p class="featured-righttext">
+              By <span class="bluespan">John Doe</span> | May 23, 2022
+            </p>
+            <h4>
+              8 Figma design systems that you can download for free today.
+            </h4>
+          </div>
+          <div class="feautured-right-card">
+            <p class="featured-righttext">
+              By <span class="bluespan">John Doe</span> | May 23, 2022
+            </p>
+            <h4>
+              8 Figma design systems that you can download for free today.
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="community">
+      <div class="container community-container">
+        <div class="community-colors">
+          <div class="community-yellow"></div>
+          <div class="community-purple"></div>
+        </div>
+        <div class="community">
+          <div class="community-left">
+            <p class="community-text">ABOUT US</p>
+            <h2>
+              We are a community of content writers who share their learnings
+            </h2>
+            <p class="community-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <p class="community-more">Read More ></p>
+          </div>
+          <div class="community-right">
+            <p class="community-text">OUR MISION</p>
+            <h3>
+              Creating valuable content for creatives all around the world
+            </h3>
+            <p class="community-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="catagory">
+      <div class="container container-catagory">
+        <h2>Choose A Catagory</h2>
+        <div class="catagory-cards">
+          <div class="catagory-card">
+            <div class="catagory-img">
+              <img src="images/icons/catagory-icon1.svg" alt="" />
+            </div>
+            <h3>Business</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          </div>
+          <div class="catagory-card">
+            <div class="catagory-img">
+              <img src="images/icons/catagory-icon2.svg" alt="" />
+            </div>
+            <h3>Startup</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          </div>
+          <div class="catagory-card">
+            <div class="catagory-img">
+              <img src="images/icons/catagory-icon3.svg" alt="" />
+            </div>
+            <h3>Economy</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          </div>
+          <div class="catagory-card">
+            <div class="catagory-img">
+              <img src="images/icons/catagory-icon4.svg" alt="" />
+            </div>
+            <h3>Technology</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="simple">
+      <div class="container simple-container">
+        <img src="images/simple-img.svg" alt="" />
+        <div>
+          <h3>Why we started</h3>
+          <h2>It started out as a simple idea and evolved into our passion</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          </p>
+          <a class="btns" href="#">Discover our story ></a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container footer-container">
+        <div class="footer-navigation">
+          <div class="footer-logo-img">
+            <a href="#"><img src="images/nav-logo.svg" alt="" /></a>
+          </div>
+          <div class="footer-menus">
+            <ul>
+              <li><a class="footer-menus-link" href="#">Home</a></li>
+              <li><a class="footer-menus-link" href="#">Blog</a></li>
+              <li><a class="footer-menus-link" href="#">About Us</a></li>
+              <li><a class="footer-menus-link" href="#">Contact Us</a></li>
+              <li><a class="footer-menus-link" href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-subscribe">
+          <div class="subscribe-heading">
+            <h2>Subscribe to our news letter to get latest updates and news</h2>
+          </div>
+          <div class="subscribe-input">
+            <form>
+              <input placeholder="Enter Your Email  " type="text" />
+            </form>
+            <a class="btns" href="#">Subscribe</a>
+          </div>
+        </div>
+        <div class="footer-content">
+          <div class="footer-text">
+            <p>Finstreet 118 2561 Fintown</p>
+            <p>Hello@finsweet.com 020 7993 2905</p>
+          </div>
+          <div class="footer-icons">
+            <img src="images/icons/facebook-icon.svg" alt="" />
+            <img src="images/icons/twitter-icon.svg" alt="" />
+            <img src="images/icons/linkedin-icon.svg" alt="" />
+            <img src="images/icons/instagram-icon.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sen:wght@700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -21,14 +23,10 @@ html {
 
 :root {
   font-size: 16px;
-  --heading-color: #1e1d1d;
-  --main-p-color: #8b8e99;
-  --btns-bg: #3858d6;
+  --btn-bg: #ffd050;
+  --btn-bg-hover: #edc14a;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-}
 a {
   text-decoration: none;
 }
