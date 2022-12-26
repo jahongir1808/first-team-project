@@ -1,0 +1,148 @@
+/* NAVBAR */
+
+nav {
+  background: #232536;
+}
+
+.nav-container {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-menus {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menus ul {
+  display: flex;
+}
+
+.nav-menus-link {
+  padding: 0 12px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.nav-btn {
+  margin-left: 8px;
+  padding: 16px 48px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 24px;
+  color: #232536;
+  background: #ffffff;
+}
+
+.hamburger {
+  display: none;
+}
+
+.btns:hover {
+  background: #edc14a;
+}
+
+#navbar-responsive {
+  display: none;
+}
+
+/* FOOTER */
+
+footer {
+  background: #232536;
+  padding: 61px 0 56px;
+}
+
+.footer-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-menus,
+.footer-menus ul,
+.subscribe-input {
+  display: flex;
+  align-items: center;
+}
+
+.footer-menus-link {
+  padding-left: 24px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.footer-subscribe {
+  display: flex;
+  padding: 80px 64px;
+  margin: 55px 0 48px;
+  background: #2e3040;
+}
+
+.footer-subscribe .subscribe-heading h2 {
+  width: 90%;
+  padding-right: 64px;
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #ffffff;
+}
+
+.subscribe-input {
+  width: 50%;
+}
+
+input[type="text"] {
+  padding: 14px 25px;
+  margin-right: 24px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #6d6e76;
+  background-color: transparent;
+  border: 1px solid #4c4c4c;
+}
+
+.subscribe-input a,
+.btns {
+  padding: 16px 48px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 24px;
+  color: #232536;
+  background: var(--btn-bg);
+  transition: 0.5s;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-text p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.footer-icons img {
+  padding-left: 26px;
+}
