@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+
+/* umumiy codlar */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sen", sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+/* begun sec-1  */
+
+.begining p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  color: #232536;
+}
+
+.begining h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.begining {
+  padding: 64px;
+}
+
+#begun {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.end p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4c4c4c;
+  padding: 102px 0 142px;
+}
+
+/* numbers sec-2 */
+
+.num {
+  background-image: url(../images/aboutus/photo-of-woman-wearing-eyeglasses-3184405.png);
+  background-repeat: no-repeat;
+}
+
+.numi {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 32px 48px;
+  background: #ffd050;
+  width: 600px;
+  justify-content: space-between;
+}
+
+.num-big {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.num-small {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+}
+
+.num {
+  padding: 265px 300px 0 109px;
+}
+
+#mision {
+  width: 100%;
+  background: #f4f0f8;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.mision h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  color: #232536;
+}
+
+.mision h2 {
+  padding: 24px 0px 16px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: #232536;
+}
+
+.mision p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+}
+
+#mision div:last-child {
+  padding-left: 32px;
+}
+
+#mision {
+  padding: 128px 108px 64px;
+}
+
+.hand {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 82px 137px 82px 0px;
+  justify-content: space-between;
+}
+
+.hand-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 82px 0px 82px 0px;
+  justify-content: space-between;
+}
+
+.right-1 h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.right-1 h2 {
+  padding: 16px 0px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #232536;
+}
+
+.right-1 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+}
+
+.right-1 {
+  margin-left: 64px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  text-align: center;
+}
+
+.bcg {
+  background: #f4f4f4;
+  padding: 40px 28px;
+}
+
+.bcg:hover {
+  background: #fbf6ea;
+}
+
+/* .bcg {
+    background: #F4F4F4;
+    margin-right: 32px;
+    padding: 40px 28px;
+} */
+
+/* .bcg-1 {
+    background: #F4F4F4;
+    margin-top: 32px;
+    margin-right: 32px;
+    padding: 40px 28px;
+}
+
+.bcg-2 {
+    background: #F4F4F4;
+    padding: 40px 28px;
+}
+
+.bcg-3 {
+    background: #F4F4F4;
+    margin-top: 32px;
+    padding: 40px 28px;
+}
+
+.bcg-3,
+.bcg-2,
+.bcg-1,
+.bcg>* {
+
+    text-align: center;
+} */
+
+.h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* JOIN */
+
+#join {
+  padding-bottom: 128px;
+}
+
+.join-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.join-container h2 {
+  max-width: 414px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.join-container p {
+  margin: 16px 0 32px;
+  max-width: 405px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+}
+
+.join-container a {
+  max-width: 174px;
+}
+
+@media (max-width: 950px) {
+  #begun {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #begun > * {
+    text-align: center;
+  }
+
+  .hand {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .hand-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .numi {
+    width: 100%;
+  }
+  .num-big {
+    width: 100%;
+  }
+  .num-small {
+    width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  .numi {
+    grid-template-columns: repeat(1, 1fr);
+    height: 100%;
+    margin-top: -250px;
+    margin-left: -10px;
+    padding: 140px;
+  }
+  .numi {
+    width: 100%;
+  }
+  .num-big {
+    width: 100%;
+  }
+  .num-small {
+    width: 100%;
+  }
+  #mision {
+    grid-template-columns: auto;
+    text-align: center;
+  }
+}
