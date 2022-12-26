@@ -4,6 +4,7 @@ section#header {
   justify-content: center;
   align-items: center;
   padding: 80px 0;
+  margin: 80px 0;
   background-color: #f4f0f8;
   gap: 4px;
 }
