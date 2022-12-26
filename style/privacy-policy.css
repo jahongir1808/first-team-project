@@ -10,60 +10,64 @@ section#header {
 
 section#header h1 {
   font-family: sans-serif;
-  font-size: 48px;
+  font-size: 3rem;
   color: #232536;
 }
 
 section#header p {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   color: #232536;
   opacity: 0.6;
 }
 
-section#main .container {
-  width: 768px;
+section#main .container2 {
+  max-width: 768px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 128px 0;
+  padding: 128px 15px;
   gap: 32px;
   font-family: sans-serif;
 }
 
-section#main .container .top {
+section#main .container2 .top {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
 
-section#main .container .top h2 {
+section#main .container2 .top h2 {
+  max-width: 716.86px;
   font-family: sans-serif;
-  font-size: 48px;
+  font-size: 3rem;
   color: #232536;
 }
-section#main .container .top p {
+section#main .container2 .top p {
+  max-width: 768px;
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   color: #4c4c4c;
   line-height: 28px;
 }
 
-section#main .container .bottom {
+section#main .container2 .bottom {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-section#main .container .bottom h2 {
+section#main .container2 .bottom h2 {
+  max-width: 714.76px;
   font-family: sans-serif;
-  font-size: 36px;
+  font-size: 2.25rem;
   color: #232536;
 }
-section#main .container .bottom p {
+section#main .container2 .bottom p {
+  max-width: 768px;
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   color: #4c4c4c;
   line-height: 28px;
 }
