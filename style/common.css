@@ -23,6 +23,8 @@ html {
 
 :root {
   font-size: 16px;
+  --btn-bg: #ffd050;
+  --btn-bg-hover: #edc14a;
 }
 
 a {
